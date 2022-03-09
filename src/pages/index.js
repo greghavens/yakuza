@@ -25,7 +25,7 @@ export default function Home() {
           <div className="nav-links" id="navLinks">
               <i className="fa fa-times" onclick="hideMenu()"></i>
               <ul>
-                  <li><AnchorLink to="#roadmap" stripHash>ROADMAP</AnchorLink></li>
+                  <li><AnchorLink to="/#roadmap" >ROADMAP</AnchorLink></li>
                   <li><Link href="/lore">LORE</Link></li>
                   <li><Link href="https://trade.dexlab.space/#/market/DpjaJ7YaH8oWcwiftg3Nn5k65jv3BiUitZjunfrgN9Cn">$BLOOD</Link></li>
                   <li><Link href="https://twitter.com/Yakuza_Raptorz"><i className="fab fa-twitter"></i></Link></li>
@@ -50,7 +50,7 @@ export default function Home() {
       
 
         <section className="roadmap">
-          <h1><a name="roadmap">ROAD MAP</a></h1>
+          <h1 id="roadmap">ROAD MAP</h1>
           <div className="column">
             <div className="row">
               <p><h2>PHASE 0</h2> <br />Mint 1111 unique Yakuza Raptorz and 1111 Yukan Theros <br />Secondary market Place Listing and Holder verification.</p>
@@ -62,13 +62,13 @@ export default function Home() {
               <p><h2>PHASE 2</h2> <br />Token Generation - $YAK will be generated to replace $BLOOD with real <br /> tokenomics and an intial amount will be airdropped to Raptorz and Theros <br />holders, making them whole from their previous $BLOOD<br/> (claimed or unclaimed) </p> 
             </div>
             <div className="row">
-              <p><h2>PHASE 3</h2><br />Use $YAK and $SOL to evolve Yakuza Raptorz to their new Reborn form with <br />updated, beautiful art  and royalties that feed the Yakuza Reborn community <br /> wallet. Staking go-live to follow immediately after.</p> 
+              <p><h2>PHASE 3</h2><br />Using $YAK and $SOL, Yakuza Raptorz evolve to their new Reborn form with <br />updated, beautiful art  and royalties that feed the Yakuza Reborn community <br /> wallet. Staking go-live following immediately after.</p> 
             </div>
             <div className="row">
               <p><h2>PHASE 4</h2> <br />28 days from the start of evolution, an extinction event will occur. <br /> All non-evolved Raptorz will be left in the original, abandoned collection.<br /> 75% of the evolution mint and 50% of royalties from secondary market <br />will be used in the creation of the custom Liquidity Pool for <br /> the $YAK/$SOL pair.</p> 
             </div>
             <div className="row">
-              <p><h2>PHASE 5</h2> <br /> Theros, lusting after the Raptorz and wanting a family, give their <br />$YAK and their life to make an egg. The last of Ikari's royalties are burned with the Theros</p> 
+              <p><h2>PHASE 5</h2> <br /> Theros, lusting after the Raptorz and wanting a to continue their <br /> legacy, give their $YAK and their life to make an egg. The last of the <br />shameful creators royalties are burned with the Theros</p> 
               
             </div>
             <div className="row">

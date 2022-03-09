@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../styles/style.css"
 
@@ -24,6 +25,7 @@ export default function Lore() {
           <div className="nav-links" id="navLinks">
               <i className="fa fa-times" onclick="hideMenu()"></i>
               <ul>
+                  <li><AnchorLink to="/#roadmap" >ROADMAP</AnchorLink></li>
                   <li><Link to="/lore">LORE</Link></li>
                   <li><Link href="https://trade.dexlab.space/#/market/DpjaJ7YaH8oWcwiftg3Nn5k65jv3BiUitZjunfrgN9Cn">$BLOOD</Link></li>
                   <li><Link href="https://twitter.com/Yakuza_Raptorz"><i className="fab fa-twitter"></i></Link></li>
