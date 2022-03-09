@@ -222,6 +222,23 @@ h2
     padding-left: 1%;
     padding-right: 1%;
 }
+.currentrow
+{
+    border: 4px solid black;
+    background:rgba(131, 123, 108, 0.164);
+    border-style: dotted;
+    border-color:rgb(146, 145, 145);
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 0 45px 0px rgba(146, 146, 146, 0.7);
+    text-align: center;
+    font-size: 30px;
+}
 .row p
 {
     text-align: center;
