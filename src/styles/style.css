@@ -104,7 +104,7 @@ nav img
     transition: 1s;
 }
 
-nav .fa
+.mobile-button
 {
     display: none;
 }
@@ -139,6 +139,25 @@ nav .fa
         background-size:cover;
         position: relative;
     }
+    .mobile-button
+    {
+        display: block;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        color:rgba(0, 0, 0, 1);
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .mobile-button.showMenu{
+        display: none;
+    }
+
     nav img
     {
         padding: 1% 1%;
@@ -160,14 +179,11 @@ nav .fa
         z-index: 2;
         transition: 1s;
     }
-    nav .fa
-    {
-        display: block;
-        color:rgba(23, 32, 70, 0.308);
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
+    .nav-links.showMenu{
+        right:0;
     }
+    
+
     .nav-links ul 
     {
         padding: 25px;
