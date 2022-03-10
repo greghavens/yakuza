@@ -169,6 +169,7 @@ nav img
     }
     .nav-links
     {
+        display:none;
         position: absolute;
         background: rgb(128, 115, 57, 0.747);
         height: 100vh;
@@ -181,6 +182,7 @@ nav img
     }
     .nav-links.showMenu{
         right:0;
+        display:block;
     }
     
 
