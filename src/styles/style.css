@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:'Road Rage', cursive;
+    color: rgb(146, 145, 145);
 }
 .header{
     min-height: 120vh;
@@ -185,7 +186,7 @@ nav .fa
     background-position: center;
     background-size: cover;
     position: relative;
-    color: rgb(146, 145, 145);
+
 }
 h1
 {
@@ -271,56 +272,50 @@ h2
         text-align: center;
         font-size: 17px;
     }
+    .currentrow p
+    {
+        text-align: center;
+        font-size: 17px;
+    }
 }
 
 /*---------LORE----------*/
 
-.sub-header
+.lore
 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(121, 47, 117, 0.308),rgba(23, 32, 70, 0.308)),url(/pic10_2.png);
+    background-image: linear-gradient(rgba(23, 32, 70, 0.308),rgba(23, 32, 70, 0.308)),url(/pic9_4.png);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
-.lore2
+.lore h1
 {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(23, 32, 70, 0.308),rgba(121, 47, 117, 0.308)),url(/pic10_1.png);
-    background-position: center;
-    background-size: cover;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 150px;
+    font-size: 75px;
+
 }
-.lore3
+.lore h2
 {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(121, 47, 117, 0.308),rgba(23, 32, 70, 0.308)),url(/pic10_2.png);
-    background-position: center;
-    background-size: cover;
+    margin: auto;
+    text-align: middle;
+    padding-top: 2%;
+    font-size: 30px;
+    padding-left: 10%;
 }
-.sub-header h1
-{
-    text-align: center;
-    font-size: 80px;
-    padding-top: 50px;
-    color: rgba(0, 0, 0, 0.664);
-}
-.sub-header h2
+.lore p
 {
     text-align: left;
-    font-size: 35px;
-    padding-top: 50px;
-    padding-left: 30%;
-    color: rgba(0, 0, 0, 0.541);
-}
-.sub-header p
-{
-    text-align: center;
     font-size: 25px;
     padding-top: 50px;
-    color: rgb(156, 118, 67);
+    padding-left: 10%;
+    display:inline-block;
+    justify-content:left;
 }
 
 .end h3
@@ -328,38 +323,34 @@ h2
     padding-top: 50px;   
     text-align: center;
     font-size: 25px;
-    color: brown;
 }
 
 @media(max-width: 700px)
 {
-    .sub-header h1
+    .lore h1
     {
-        text-align: center;
+        text-align: left;
         font-size: 80px;
-        padding-top: 50px;
-        color: rgba(0, 0, 0, 0.664);
+        padding-top: 55px;
     }  
-    .sub-header h2
+    .lore h2
     {
         text-align: left;
         font-size: 25px;
         padding-top: 50px;
         padding-left: 10%;
-        color: rgba(0, 0, 0, 0.541);
     }
-    .sub-header p
+    .lore p
     {
-        text-align: center;
-        font-size: 10px;
+        text-align: left;
+        font-size: 17px;
         padding-top: 50px;
-        color: rgb(156, 118, 67);
     }
     .end h3
     {
         padding-top: 50px;   
-        text-align: center;
-        font-size: 25px;
-        color: brown;
+        text-align: left;
+        font-size: 17px;
+        padding-left: 10%;
     }
 }
