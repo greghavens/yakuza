@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
         <nav>
           <Link to="/"><img src="logo2.png" alt="logo"/></Link>
-          <div className={`mobile-button ${navbarOpen ? "showMenu" : "fa-bars"}`} onClick={handleToggle}></div>
+          <div className={`mobile-button ${navbarOpen ? "showMenu" : "fa-bars"}`} onClick={handleToggle} onKeyDown={handleToggle}></div>
           <div className={`nav-links ${navbarOpen ? "showMenu" : ""}`} id="navLinks">
               
               <ul>
