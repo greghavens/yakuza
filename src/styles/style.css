@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Road Rage', cursive;
+    font-family:'Road Rage', cursive;    
+}
+body{
     color: rgb(146, 145, 145);
 }
 .header{

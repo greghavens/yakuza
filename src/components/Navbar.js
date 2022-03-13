@@ -16,12 +16,13 @@ export default function Navbar() {
     setNavbarOpen(false)
   }
 
+  let iconStyles = { color: "black" }
+
   return (
         <nav>
           <Link to="/"><img src="logo2.png" alt="logo"/></Link>
-          <div className={`mobile-button ${navbarOpen ? "showMenu" : ""}`} onClick={handleToggle} onKeyDown={handleToggle}><FaBars classname="nav-links" /></div>
+          <div className={`mobile-button ${navbarOpen ? "showMenu" : ""}`} onClick={handleToggle} onKeyDown={handleToggle}><FaBars style={iconStyles} /></div>
           <div className={`nav-links ${navbarOpen ? "showMenu" : ""}`} id="navLinks">
-              
               <ul>
                   <li><Link to="/#roadmap" onClick={() => closeMenu()}>ROADMAP</Link></li>
                   <li><Link to="/#lore" onClick={() => closeMenu()}>LORE</Link></li>
